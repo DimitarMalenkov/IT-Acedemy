@@ -1,0 +1,160 @@
+@import "footer.css";
+@import "stani_del.css";
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: Manrope, Helvetica, sans-serif;
+}
+
+header {
+	position: absolute;
+	height: 80px;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+
+header .header_opacity {
+	background-color: rgba(0, 0, 0, 0.3);
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+
+header .container {
+	width: 80%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header img {
+	height: 50px;
+}
+
+header ul {
+	list-style: none;
+}
+
+header ul li {
+	display: inline-block;
+	padding: 0 30px 0 30px;
+}
+
+header ul li:nth-child(5) {
+	padding-right: 0;
+}
+
+header ul li:nth-child(1) {
+	padding-left: 0;
+}
+
+header ul li a {
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 16px;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+	z-index: 1;
+}
+
+.showcase {
+	background: url("../images/photo-of-people-talking-to-each-other-3182739.jpg");
+	background-size: cover;
+	background-position: center center;
+	background-attachment: scroll;
+	height: 60vh;
+	display: flex;
+	align-items: center;
+}
+
+.showcase .opacity {
+	background-color: rgba(0, 0, 0, 0.5);
+	height: 60vh;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 0;
+}
+
+.showcase h1 {
+	text-align: center;
+	color: #ffffff;
+	font-size: 50px;
+	font-weight: 800;
+	line-height: 80px;
+}
+
+.blue_line {
+	width: 150px;
+	height: 5px;
+	border-radius: 5px;
+	background-color: #2181ef;
+}
+
+.kontakti {
+	margin-top: 100px;
+	color: #404040;
+}
+
+.kontakti .flex-grid {
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+}
+
+.kontakti .wrapper {
+	width: 450px;
+	/* margin: 0 auto; */
+	text-align: center;
+}
+
+.kontakti .img {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	margin: 0 auto;
+	background: url("../images/rakovoditel.png");
+	background-position: center center;
+	background-size: cover;
+}
+
+.rakovoditel h2 {
+	font-size: 30px;
+	font-weight: 900;
+	margin-top: 20px;
+}
+
+.kontakti p {
+	font-size: 16px;
+}
+
+.kontakti .info {
+	margin-top: 20px;
+}
+
+.kontakti .info div {
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	margin-top: 10px;
+}
+
+.kontakti .info p {
+	display: inline-block;
+	margin-left: 10px;
+}
+
+.kontakti .info i {
+	font-size: 25px;
+}

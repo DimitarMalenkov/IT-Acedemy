@@ -1,0 +1,206 @@
+@import "footer.css";
+@import "stani_del.css";
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: Manrope, Helvetica, sans-serif;
+}
+
+header {
+	position: absolute;
+	height: 80px;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+
+header .header_opacity {
+	background-color: rgba(0, 0, 0, 0.3);
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+
+header .container {
+	width: 80%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header img {
+	height: 50px;
+}
+
+header ul {
+	list-style: none;
+}
+
+header ul li {
+	display: inline-block;
+	padding: 0 30px 0 30px;
+}
+
+header ul li:nth-child(5) {
+	padding-right: 0;
+}
+
+header ul li:nth-child(1) {
+	padding-left: 0;
+}
+
+header ul li a {
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 16px;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+	z-index: 1;
+}
+
+.showcase {
+	background: url("../images/nashata_programa.jpg");
+	background-size: cover;
+	background-position: 50% 51%;
+	background-attachment: scroll;
+	height: 60vh;
+	display: flex;
+	align-items: center;
+}
+
+.showcase .opacity {
+	background-color: rgba(0, 0, 0, 0.3);
+	height: 60vh;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 0;
+}
+
+.showcase h1 {
+	text-align: center;
+	color: #ffffff;
+	font-size: 50px;
+	font-weight: 800;
+	line-height: 80px;
+}
+
+.blue_line {
+	width: 150px;
+	height: 5px;
+	border-radius: 5px;
+	background-color: #2181ef;
+}
+
+.za_kogo {
+	margin-top: 100px;
+}
+
+.za_kogo .wrapper {
+	height: 450px;
+	display: flex;
+	justify-content: space-between;
+	background-color: #f5f5f5;
+}
+
+.za_kogo .left {
+	width: 50%;
+	padding: 29px;
+	box-sizing: border-box;
+}
+
+.za_kogo .left h3 {
+	font-size: 30px;
+	margin-bottom: 10px;
+}
+
+.za_kogo .left p {
+	font-size: 16px;
+	margin-top: 10px;
+}
+
+.za_kogo .right {
+	width: 50%;
+	background: url("../images/za_kogo.jpg");
+	background-position: center center;
+	background-size: cover;
+}
+
+.program {
+	background-color: #f5f5f5;
+	margin-top: 100px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.program h2 {
+	text-align: center;
+	font-size: 40px;
+	margin-bottom: 10px;
+}
+
+.program .center {
+	margin: 0 auto;
+}
+
+.program .modules {
+	margin-top: 50px;
+}
+
+.program .modules .module {
+	background-color: #ffffff;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 50px;
+}
+
+.program .module .left {
+	width: 40%;
+}
+
+.program .module .left video {
+	width: 100%;
+}
+
+.program .module .right {
+	width: 60%;
+	padding: 30px;
+	box-sizing: border-box;
+}
+
+.program .reverse .right {
+	order: 1;
+}
+
+.program .reverse .left {
+	order: 2;
+}
+
+.program .module .right h3 {
+	font-size: 30px;
+	margin-bottom: 10px;
+}
+
+.program .module .right h4 {
+	color: #2181ef;
+}
+
+.program .module .right .list {
+	font-size: 16px;
+	margin-top: 10px;
+	margin-left: 18px;
+}
+
+.program .module .right .indent {
+	margin-left: 20px;
+}

@@ -1,0 +1,294 @@
+@import "footer.css";
+@import "stani_del.css";
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: "Manrope", Helvetica, sans-serif;
+}
+
+header {
+	position: absolute;
+	height: 80px;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+
+header .header_opacity {
+	background-color: rgba(0, 0, 0, 0.3);
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+
+header .container {
+	width: 80%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header img {
+	height: 50px;
+}
+
+header ul {
+	list-style: none;
+}
+
+header ul li {
+	display: inline-block;
+	padding: 0 30px 0 30px;
+}
+
+header ul li:nth-child(5) {
+	padding-right: 0;
+}
+
+header ul li:nth-child(1) {
+	padding-left: 0;
+}
+
+header ul li a {
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 16px;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+	z-index: 1;
+}
+
+.showcase {
+	/* background: url("../images/teacher.jpg");
+	background-size: cover;
+	background-position: center center;
+	background-attachment: scroll; */
+	height: 100vh;
+	display: flex;
+	align-items: center;
+}
+
+#home_video {
+	height: 100vh;
+	width: 100%;
+	overflow: hidden;
+	display: block;
+	position: absolute;
+}
+
+#home_video video {
+	width: 100%;
+}
+
+.showcase .opacity {
+	background-color: rgba(0, 0, 0, 0.5);
+	height: 100vh;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 0;
+}
+
+.showcase .wrapper {
+	width: 70%;
+	color: #ffffff;
+}
+
+.showcase h1 {
+	font-size: 50px;
+	font-weight: 800;
+	line-height: 70px;
+	margin-bottom: 10px;
+}
+
+.showcase p {
+	margin-top: 10px;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 30px;
+}
+
+.showcase a {
+	font-size: 16px;
+	background-color: #2181ef;
+	display: inline-block;
+	padding: 10px 30px 10px 30px;
+	margin-top: 20px;
+	border-radius: 5px;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.blue_line {
+	width: 150px;
+	height: 5px;
+	border-radius: 5px;
+	background-color: #2181ef;
+}
+
+.best {
+	margin-top: 100px;
+}
+
+.best .best_wrapper {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 20px;
+}
+
+.best article {
+	text-align: center;
+	padding: 10px;
+	box-sizing: border-box;
+	min-width: 250px;
+}
+
+.best article .img {
+	width: 95%;
+	margin: 0 auto;
+}
+
+.best article .img .icon {
+	font-size: 150px;
+}
+
+.best article h3 {
+	font-weight: 800;
+	font-size: 30px;
+	margin-top: 20px;
+}
+
+.best article p {
+	font-size: 16px;
+}
+
+.generation {
+	margin-top: 100px;
+}
+
+.generation .generation_content {
+	height: 500px;
+	background: url("../images/generacija-2019-2020.jpg");
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+	text-align: center;
+	color: white;
+	position: relative;
+	display: flex;
+	align-items: center;
+}
+
+.generation_opacity {
+	background-color: rgba(0, 0, 0, 0.5);
+	height: 100%;
+	width: 100%;
+	margin: 0 auto;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 0;
+}
+
+.generation .text {
+	color: #ffffff;
+	position: relative;
+	z-index: 1;
+	width: 65%;
+	margin: 0 auto;
+}
+
+.generation .text h2 {
+	font-weight: 800;
+	font-size: 40px;
+	margin-bottom: 10px;
+}
+
+.generation .text p {
+	font-size: 16px;
+	margin-top: 10px;
+}
+
+.generation .text a {
+	font-size: 16px;
+	background-color: #2181ef;
+	display: inline-block;
+	padding: 10px 30px 10px 30px;
+	margin-top: 20px;
+	border-radius: 5px;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.generation .text .blue_line {
+	margin: 0 auto;
+}
+
+.program {
+	background-color: #f7fdff;
+	margin-top: 100px;
+	padding-top: 50px;
+	padding-bottom: 100px;
+	box-sizing: border-box;
+}
+
+.program .blue_line {
+	margin: 0 auto;
+}
+
+.program h2 {
+	text-align: center;
+	font-weight: 800;
+	font-size: 40px;
+	margin-bottom: 10px;
+}
+
+.program .modules {
+	margin-top: 50px;
+	text-align: center;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-column-gap: 5%;
+	grid-row-gap: 7vh;
+	justify-items: stretch;
+	align-items: stretch;
+}
+
+.program .module {
+	min-width: 300px;
+	background-color: #ffffff;
+	padding: 20px;
+	box-sizing: border-box;
+	border-radius: 20px;
+	box-shadow: 0px 0px 22px 0px rgba(0, 0, 0, 0.3);
+}
+
+.program .module h3 {
+	font-weight: 800;
+	font-size: 30px;
+	line-height: 35px;
+}
+
+.program .module h4 {
+	font-size: 18px;
+	color: #2181ef;
+}
+
+.program .module .module-pic {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.program .modules .module video {
+	width: 100%;
+}

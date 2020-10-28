@@ -1,0 +1,61 @@
+.stani_del {
+	margin-top: 100px;
+}
+
+.stani_del .stani_del_content {
+	height: 500px;
+	background: url("../images/stani_del 2.jpg");
+	background-size: cover;
+	background-position: top center;
+	background-attachment: fixed;
+	text-align: center;
+	color: white;
+	position: relative;
+	display: flex;
+	align-items: center;
+}
+
+.stani_del .generation_opacity {
+	background-color: rgba(0, 0, 0, 0.5);
+	height: 100%;
+	width: 100%;
+	margin: 0 auto;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 0;
+}
+
+.stani_del .text {
+	color: #ffffff;
+	position: relative;
+	z-index: 1;
+	width: 65%;
+	margin: 0 auto;
+}
+
+.stani_del .text h2 {
+	font-weight: 800;
+	font-size: 40px;
+	margin-bottom: 10px;
+}
+
+.stani_del .text p {
+	font-size: 16px;
+	margin-top: 10px;
+}
+
+.stani_del .text a {
+	background-color: #2181ef;
+	display: inline-block;
+	padding: 10px 30px 10px 30px;
+	margin-top: 20px;
+	border-radius: 5px;
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 16px;
+}
+
+.stani_del .text .blue_line {
+	margin: 0 auto;
+}
