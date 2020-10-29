@@ -6,7 +6,7 @@
 }
 
 body {
-	font-family: Manrope, Helvetica, sans-serif;
+	font-family: "Manrope", "Roboto", sans-serif;
 }
 
 header {
@@ -99,50 +99,41 @@ header ul li a {
 	height: 3px;
 	border-radius: 5px;
 	background-color: #2181ef;
-	margin: 0 auto;
 }
 
 .students {
 	padding-top: 100px;
 	padding-bottom: 100px;
-	background-color: #f7fdff;
 }
 
 .students .students_grid {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	grid-column-gap: 3%;
-	grid-row-gap: 7vh;
+	grid-row-gap: 10vh;
 	justify-items: center;
 }
 
 .students .student {
 	max-width: 350px;
-	padding: 20px;
 	box-sizing: border-box;
-	border-radius: 20px;
-	background-color: #ffffff;
-	box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.3);
 }
 
 .students .student-pic {
 	width: 100%;
-	height: 300px;
+	height: 350px;
 	margin: 0 auto;
-	border-radius: 10px;
 }
 
 .students .student h2 {
-	text-align: center;
-	font-size: 25px;
+	font-size: 30px;
 	line-height: 30px;
-	margin-top: 10px;
-	margin-bottom: 10px;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
 .students .student p {
 	font-size: 16px;
-	text-align: justify;
 	margin-top: 10px;
 }
 
@@ -150,42 +141,40 @@ header ul li a {
 	background: url("../images/studenti/anastasija.jpeg");
 	background-size: cover;
 	background-position: bottom center;
+	background-repeat: no-repeat;
 }
-
-/* #evgenija{
-	fali slika
-} */
-
-/* #ivo {
-	fali slika
-} */
 
 #ljubica {
 	background: url("../images/studenti/ljubica.jpeg");
 	background-size: cover;
 	background-position: center center;
+	background-repeat: no-repeat;
 }
 
 #marko {
 	background: url("../images/studenti/marko.jpeg");
 	background-size: cover;
 	background-position: center center;
+	background-repeat: no-repeat;
 }
 
 #martin {
 	background: url("../images/studenti/martin.jpg");
 	background-size: cover;
 	background-position: bottom center;
+	background-repeat: no-repeat;
 }
 
 #nikola {
 	background: url("../images/studenti/nikola.jpg");
 	background-size: cover;
 	background-position: top center;
+	background-repeat: no-repeat;
 }
 
 #filip {
 	background: url("../images/studenti/filip.jpeg");
 	background-size: cover;
 	background-position: center center;
+	background-repeat: no-repeat;
 }

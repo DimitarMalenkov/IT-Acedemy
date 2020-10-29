@@ -7,7 +7,7 @@
 }
 
 body {
-	font-family: "Manrope", Helvetica, sans-serif;
+	font-family: "Manrope", "Roboto", sans-serif;
 }
 
 header {
@@ -280,7 +280,7 @@ header ul li a {
 }
 
 .program .module h4 {
-	font-size: 18px;
+	font-size: 16px;
 	color: #2181ef;
 }
 
