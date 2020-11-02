@@ -28,14 +28,14 @@ footer .left {
 	justify-content: center;
 }
 
-footer .left .social i {
-	padding: 0 10px 0 10px;
-	font-size: 35px;
-	color: #ffffff;
+footer .left .social img {
+	margin: 0 10px 0 10px;
+	width: 35px;
+	filter: invert(100%);
 }
 
-footer .left .social i:hover {
-	color: #2181ef;
+footer .left .social img:hover {
+	filter: invert(70%);
 }
 
 footer .center {
@@ -57,9 +57,10 @@ footer .center .contact > div {
 	padding: 10px;
 }
 
-footer .center i {
-	font-size: 30px;
+footer .center img {
+	width: 30px;
 	padding-right: 15px;
+	filter: invert(100%);
 }
 
 footer .center .location p {

@@ -155,6 +155,7 @@ header ul li a {
 	margin-left: 10px;
 }
 
-.kontakti .info i {
-	font-size: 20px;
+.kontakti .info img {
+	width: 20px;
+	filter: invert(25%);
 }

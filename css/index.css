@@ -151,10 +151,11 @@ header ul li a {
 	padding: 10px;
 	box-sizing: border-box;
 	min-width: 250px;
+	max-width: 350px;
 }
 
 .best article .img {
-	width: 95%;
+	width: 160px;
 	margin: 0 auto;
 }
 
