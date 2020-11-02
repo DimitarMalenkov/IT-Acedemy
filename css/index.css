@@ -157,6 +157,7 @@ header ul li a {
 .best article .img {
 	width: 160px;
 	margin: 0 auto;
+	filter: invert(10%);
 }
 
 .best article .img .icon {
@@ -167,10 +168,12 @@ header ul li a {
 	font-weight: 800;
 	font-size: 30px;
 	margin-top: 20px;
+	color: #212121;
 }
 
 .best article p {
 	font-size: 16px;
+	color: #212121;
 }
 
 .generation {
@@ -252,6 +255,7 @@ header ul li a {
 	font-weight: 800;
 	font-size: 40px;
 	margin-bottom: 10px;
+	color: #212121;
 }
 
 .program .modules {
@@ -278,6 +282,7 @@ header ul li a {
 	font-weight: 800;
 	font-size: 30px;
 	line-height: 35px;
+	color: #212121;
 }
 
 .program .module h4 {

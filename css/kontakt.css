@@ -104,7 +104,7 @@ header ul li a {
 
 .kontakti {
 	margin-top: 100px;
-	color: #404040;
+	color: #212121;
 }
 
 .kontakti .flex-grid {
@@ -115,7 +115,6 @@ header ul li a {
 
 .kontakti .wrapper {
 	width: 450px;
-	/* margin: 0 auto; */
 	text-align: center;
 }
 
@@ -157,5 +156,5 @@ header ul li a {
 
 .kontakti .info img {
 	width: 20px;
-	filter: invert(25%);
+	filter: invert(10%);
 }

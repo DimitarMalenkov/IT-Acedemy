@@ -122,11 +122,13 @@ header ul li a {
 .za_semos .left h3 {
 	font-size: 30px;
 	margin-bottom: 10px;
+	color: #212121;
 }
 
 .za_semos .left p {
 	font-size: 16px;
 	margin-top: 10px;
+	color: #212121;
 }
 
 .za_semos .right {
@@ -147,6 +149,7 @@ header ul li a {
 	text-align: center;
 	font-size: 40px;
 	margin-bottom: 10px;
+	color: #212121;
 }
 
 .dostignuvanja .blue_line {
@@ -172,6 +175,7 @@ header ul li a {
 .dostignuvanja article .pic {
 	width: 160px;
 	margin: 0 auto;
+	filter: invert(10%);
 }
 
 .dostignuvanja article .pic .icon {
@@ -182,10 +186,12 @@ header ul li a {
 	font-weight: 800;
 	font-size: 30px;
 	margin-top: 20px;
+	color: #212121;
 }
 
 .dostignuvanja article p {
 	font-size: 16px;
+	color: #212121;
 }
 
 .tim {
@@ -196,6 +202,7 @@ header ul li a {
 	text-align: center;
 	font-size: 40px;
 	margin-bottom: 10px;
+	color: #212121;
 }
 
 .tim .blue_line {
@@ -238,8 +245,10 @@ header ul li a {
 	font-weight: 800;
 	font-size: 30px;
 	margin-top: 20px;
+	color: #212121;
 }
 
 .tim .person p {
 	font-size: 16px;
+	color: #212121;
 }

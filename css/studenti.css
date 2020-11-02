@@ -130,11 +130,13 @@ header ul li a {
 	line-height: 30px;
 	margin-top: 20px;
 	margin-bottom: 20px;
+	color: #212121;
 }
 
 .students .student p {
 	font-size: 16px;
 	margin-top: 10px;
+	color: #212121;
 }
 
 #anastasija {
