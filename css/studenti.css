@@ -140,21 +140,21 @@ header ul li a {
 }
 
 #anastasija {
-	background: url("../images/studenti/anastasija.jpeg");
+	background: url("../images/studenti/anastasija.jpg");
 	background-size: cover;
 	background-position: bottom center;
 	background-repeat: no-repeat;
 }
 
 #ljubica {
-	background: url("../images/studenti/ljubica.jpeg");
+	background: url("../images/studenti/ljubica.jpg");
 	background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;
 }
 
 #marko {
-	background: url("../images/studenti/marko.jpeg");
+	background: url("../images/studenti/marko.jpg");
 	background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;
@@ -175,7 +175,7 @@ header ul li a {
 }
 
 #filip {
-	background: url("../images/studenti/filip.jpeg");
+	background: url("../images/studenti/filip.jpg");
 	background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;

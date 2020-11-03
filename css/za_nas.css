@@ -133,7 +133,7 @@ header ul li a {
 
 .za_semos .right {
 	width: 50%;
-	background: url("../images/za_semos.png");
+	background: url("../images/za_semos.jpg");
 	background-position: center right;
 	background-size: cover;
 }
@@ -229,14 +229,14 @@ header ul li a {
 }
 
 #dimitar {
-	background: url("../images/predavaci/dimitar.png");
+	background: url("../images/predavaci/dimitar.jpg");
 	background-position: center center;
 	background-size: cover;
 }
 
 #dejan,
 #martin {
-	background: url("../images/rakovoditel.png");
+	background: url("../images/rakovoditel.jpg");
 	background-position: center center;
 	background-size: cover;
 }
