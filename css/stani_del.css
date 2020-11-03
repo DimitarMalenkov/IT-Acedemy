@@ -56,6 +56,12 @@
 	font-size: 16px;
 }
 
+.stani_del .text a:hover {
+	transform: scale(1.05);
+	transition: 0.3s;
+	box-shadow: 0px 0px 15px -3px #2181ef;
+}
+
 .stani_del .text .blue_line {
 	margin: 0 auto;
 }
